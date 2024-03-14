@@ -1,0 +1,117 @@
+@font-face {
+    font-family: young-serif;
+    src: url(./fonts/Young_Serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: Outfit;
+
+    src: url(./fonts/Outfit/Outfit-VariableFont_wght.ttf);
+}
+
+html {
+    background-color: hsl(30, 54%, 90%);
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    margin: 100px 300px 100px 300px;
+    border-radius: 25px;
+}
+
+.coverImage {
+    width: 90%;
+    height: 90%;
+    margin: 40px 40px 40px;
+    border-radius: 20px;
+}
+
+.heading {
+    margin-left: 40px;
+    font-family: young-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.description {
+    margin-left: 40px;
+    font-size: 16px;
+    font-family: Outfit;
+    font-weight: 400;
+    line-height: 150%;
+    color: hsl(30, 10%, 34%);
+}
+
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    height: 200px;
+    margin: 40px 40px 40px;
+    border-radius: 20px;
+}
+
+.preparationTime {
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color: #7a284e;
+
+}
+
+.preparationTimeList {
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    color:hsl(30, 10%, 34%);
+}
+
+.bold {
+    font-weight: 600;
+    
+}
+
+.recipe {
+    margin-left: 40px;
+    font-size: 28px;
+    font-family: "Young Serif";
+    font-weight: 600;
+    color: #854632;
+
+}
+
+.recipeli li {
+    margin-left: 40px;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    color:hsl(30, 10%, 34%);
+
+}
+
+.nutrition p {
+    display: inline-block;
+}
+
+.nutrition {
+    border-bottom: 1px solid gray;
+}
+
+.theme {
+    margin-left: 80px;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    color: hsl(30, 10%, 34%);
+}
+
+.answer {
+    margin-left: 200px;
+    ont-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    line-height: 150%;
+    color: #854632;
+}
